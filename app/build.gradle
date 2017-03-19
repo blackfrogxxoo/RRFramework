@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin:'me.tatarka.retrolambda'
+apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 25
@@ -24,7 +24,7 @@ android {
     }
 }
 
-def support_version = "25.3.0"
+def support_version = "25.2.0"
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -32,10 +32,10 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile "com.android.support:appcompat-v7:${support_version}"
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
 
     // Rx
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'io.reactivex:rxjava:1.1.8'
     compile 'io.reactivex:rxandroid:1.2.1'
+    testCompile 'junit:junit:4.12'
 }
