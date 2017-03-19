@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">RRFramework</string>
-    <string name="btn_description">Tap on the below button and RxBus will listen to the events</string>
+    <string name="btn_description">Tap on the below button and RxBus will listen to the events. If has RxBus has no subscriber, subscribe dead event.</string>
     <string name="btn_tap">Send Tap Event</string>
     <string name="toast_tap">tap!</string>
     <string name="btn_launch_new_activity">Start new Activity</string>
     <string name="btn_unsubscribe">Unsubscribe</string>
+    <string name="btn_unsubscribe_description">Unsubscribe the default event, then RxBus will have no subscriber</string>
 </resources>
