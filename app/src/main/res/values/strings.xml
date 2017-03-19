@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">RRFramework</string>
     <string name="btn_description">Tap on the below button and RxBus will listen to the events</string>
-    <string name="btn_tap">Tap</string>
+    <string name="btn_tap">Send Tap Event</string>
     <string name="toast_tap">tap!</string>
     <string name="btn_launch_new_activity">Start new Activity</string>
+    <string name="btn_unsubscribe">Unsubscribe</string>
 </resources>

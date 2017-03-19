@@ -20,4 +20,8 @@ public enum RxBus {
     public Observable<Object> toObserverable() {
         return bus;
     }
+
+    public boolean hasObservers() {
+        return bus.hasObservers();
+    }
 }
